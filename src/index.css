@@ -24,8 +24,9 @@
 }
 
 @layer base {
-  html {
+  html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
