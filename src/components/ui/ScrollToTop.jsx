@@ -22,7 +22,7 @@ export default function ScrollToTop() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.5 }}
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className={`fixed bottom-8 right-8 z-50 p-3 rounded-full shadow-lg transition-colors cursor-pointer ${
+          className={`fixed bottom-8 right-24 z-50 p-3 rounded-full shadow-lg transition-colors cursor-pointer ${
             isDark
               ? 'bg-dark-accent hover:bg-dark-accent-hover text-white'
               : 'bg-light-accent hover:bg-light-accent-hover text-white'

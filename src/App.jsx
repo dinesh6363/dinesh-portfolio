@@ -3,6 +3,7 @@ import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ui/ScrollToTop';
+import WhatsAppButton from './components/ui/WhatsAppButton';
 import PageTransition from './components/PageTransition';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -33,6 +34,7 @@ export default function App() {
       </main>
       <Footer />
       <ScrollToTop />
+      <WhatsAppButton />
     </>
   );
 }
