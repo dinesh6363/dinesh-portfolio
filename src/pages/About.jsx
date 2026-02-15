@@ -8,8 +8,8 @@ import { useTheme } from '../context/ThemeContext';
 import SectionHeading from '../components/ui/SectionHeading';
 import GlassCard from '../components/ui/GlassCard';
 
-const PROFILE_IMAGE = '/profile.JPG';
-const TEAM_IMAGE = '/team.JPG';
+const PROFILE_IMAGE = '/profile.webp';
+const TEAM_IMAGE = '/team.webp';
 
 const strengths = [
   {
