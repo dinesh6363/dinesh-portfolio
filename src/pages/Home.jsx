@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
   ArrowRight, Code2, Layers, Briefcase, Rocket,
-  Server, Globe, Palette, Zap, Database, GitBranch, Terminal
+  Server, Globe, Palette, Database, GitBranch, Terminal
 } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import SectionHeading from '../components/ui/SectionHeading';
@@ -80,9 +80,9 @@ export default function Home() {
             </motion.div>
 
             <motion.h1
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.1 }}
+              transition={{ duration: 0.5, delay: 0.05 }}
               className={`font-poppins text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 ${isDark ? 'text-white' : 'text-gray-900'}`}
             >
               Hi, I'm{' '}
@@ -92,18 +92,18 @@ export default function Home() {
             </motion.h1>
 
             <motion.p
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.2 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
               className={`font-poppins text-xl sm:text-2xl font-medium mb-4 ${isDark ? 'text-dark-text-muted' : 'text-light-text-muted'}`}
             >
               Senior Full Stack Developer
             </motion.p>
 
             <motion.p
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.3 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
               className={`text-lg max-w-2xl mx-auto mb-10 ${isDark ? 'text-dark-text-muted' : 'text-light-text-muted'}`}
             >
               I build scalable, high-performance, and modern web applications
@@ -111,9 +111,9 @@ export default function Home() {
             </motion.p>
 
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.4 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
               className="flex flex-col sm:flex-row items-center justify-center gap-4"
             >
               <Link
